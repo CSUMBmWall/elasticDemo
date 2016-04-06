@@ -1,0 +1,40 @@
+{
+    "guysdata": {
+      "mappings": {
+        "occupationlookup": {
+          "properties": {
+            "fiscal_year": {
+              "type": "integer"
+            },
+            "group_org_name": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "org_short_name": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "org_roll_code": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "group_name": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "occupation_name": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "pos_type_code": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "total": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+}
