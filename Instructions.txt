@@ -1,0 +1,42 @@
+Download files
+  Elasticsearch https://www.elastic.co/downloads/elasticsearch
+
+  Logstash https://www.elastic.co/downloads/logstash
+
+  Kibana https://www.elastic.co/downloads/kibana
+
+Create directory elk 
+  unzip all files into this directory
+
+Download Zip of all files from https://github.com/CSUMBmWall/elasticDemo.git
+  unzip into elk folder
+  move guys_data.conf to logstash folder
+
+  
+Open 3 cmd terminals
+
+  Install elasticsearch-head
+    cd ~\elk\elasticsearch-2.3.1
+    bin\plugin install mobz/elasticsearch-head
+  Start Elasticsearch    
+    bin\elasticsearch
+  Open browser tab and navigate to http://localhost:9200/_plugin/head
+    
+  Install sense plugin for Kibana
+    cd ~\elk\kibana-4.5.0
+    bin\kibana install elastic/sense
+  Start Kibana  
+    bin\kibana
+  Open browser tab and navigate to http://localhost:5601/app/sense
+  
+  Start Logstash using configuration file from github
+    cd ~\elk\logstash-2.3.0
+    bin\logstash -f guys_data.conf
+    
+Good tutorial from elastic to ingest data, and display in Kibana
+https://www.elastic.co/guide/en/kibana/current/getting-started.html
+
+
+
+
+
