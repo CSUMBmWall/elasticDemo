@@ -1,7 +1,13 @@
-Download files
+Download ELK Stack files
   Elasticsearch: https://www.elastic.co/downloads/elasticsearch
   Logstash: https://www.elastic.co/downloads/logstash
   Kibana: https://www.elastic.co/downloads/kibana
+  
+Download Java
+  http://www.oracle.com/technetwork/java/javase/downloads/index.html
+    Install
+    Set System variables https://docs.oracle.com/javase/tutorial/essential/environment/paths.html
+      Info on difference between CLASS and JAVA_HOME  http://www.coderanch.com/t/600047/java/java/Difference-JAVA-HOME-JRE-HOME
 
 Create directory elk 
   unzip all files into this directory
