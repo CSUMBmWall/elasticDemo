@@ -1,8 +1,6 @@
 Download files
   Elasticsearch: https://www.elastic.co/downloads/elasticsearch
-
   Logstash: https://www.elastic.co/downloads/logstash
-
   Kibana: https://www.elastic.co/downloads/kibana
 
 Create directory elk 
@@ -11,10 +9,8 @@ Create directory elk
 Download Zip of all files from https://github.com/CSUMBmWall/elasticDemo.git
   unzip into elk folder
   move guys_data.conf to logstash folder
-
   
 Open 3 cmd terminals
-
   Install elasticsearch-head
     cd ~\elk\elasticsearch-2.3.1
     bin\plugin install mobz/elasticsearch-head
