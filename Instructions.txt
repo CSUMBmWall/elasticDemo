@@ -24,6 +24,7 @@ Open 3 cmd terminals
   Start Kibana  
     bin\kibana
   Open browser tab and navigate to http://localhost:5601/app/sense
+  ##Sense is great for running multi line commands that don't work in Windows cmd
   
   Start Logstash using configuration file from github
     cd ~\elk\logstash-2.3.0
